@@ -9,5 +9,12 @@ package tp2_biere_larnac;
  * @author Anaëlle
  */
 public class BouteilleBiere {
+    String nom;
+    Double degreAlcool;
+    String brasserie;
+    boolean ouverte;
+    public void lireEtiquette() {
+    System.out.println("Bouteille de " + nom +" (" + degreAlcool +" degres) \nBrasserie : " + brasserie ) ;
+    }
     
 }
