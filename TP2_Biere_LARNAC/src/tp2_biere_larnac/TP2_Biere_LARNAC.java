@@ -15,6 +15,20 @@ public class TP2_Biere_LARNAC {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        BouteilleBiere uneBiere = new BouteilleBiere() ;{
+    uneBiere.nom = "Cuvée des trolls";
+    uneBiere.degreAlcool = 7.0 ;
+    uneBiere.brasserie="Dubuisson";
+    uneBiere.ouverte=false;
+    uneBiere.lireEtiquette();
+    }
+    BouteilleBiere secondeBiere = new BouteilleBiere(); {
+    secondeBiere = new BouteilleBiere();
+    secondeBiere.nom ="Leffe";
+    secondeBiere.degreAlcool=6.6;
+    secondeBiere.brasserie="Abbaye de Leffe";
+    secondeBiere.lireEtiquette();
+    }
     }
     
 }
