@@ -39,6 +39,6 @@ public class Convertisseur {
         return f;
     }
     public String toString(){
-         return "nb de conversions"+ nbConversions;
+         return "nb de conversions"+ nbConversions;  
     }
 }
