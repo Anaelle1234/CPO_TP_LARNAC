@@ -15,7 +15,7 @@ public class TP2_Biere_LARNAC {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    
+    //information attribuée à chaque biere (1,autre, 2eme,3eme,4eme)
     BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls",7.0,"Dubuisson") ;
     BouteilleBiere autreBiere = new BouteilleBiere("Leffe", 6.6,"Abbaye de Leffe");  
     BouteilleBiere secondeBiere = new BouteilleBiere("Guiness",5.0,"Dublin");
@@ -24,7 +24,8 @@ public class TP2_Biere_LARNAC {
     
     
     
-    uneBiere.Décapsuler();
+    uneBiere.Décapsuler();//on décapsule seulement la biere une
+    //on affiche le contenu de chaque biere crée
     System.out.println(uneBiere);
     System.out.println(autreBiere);
     System.out.println(secondeBiere);
