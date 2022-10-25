@@ -18,17 +18,17 @@ public class BouteilleBiere {//création de la classe bouteille biere avec les n
     public void lireEtiquette() {
     System.out.println("Bouteille de " + nom +" (" + degreAlcool +" degres) \nBrasserie : " + brasserie ) ;
     }
-    
+    //création méthode décapsuler
     public void Décapsuler(){
-        if (ouverte==false){
+        if (ouverte==false){//si la biere n'est pas décapsulée on la décapsule
             ouverte=true;
-            System.out.println("la biere est maintenant ouverte");
+            System.out.println("la biere est maintenant ouverte");//on affiche le résultat
         }else{
-            System.out.println(" erreur : biere déjà ouverte");
+            System.out.println(" erreur : biere déjà ouverte");// si la biere est déjà ouverte on affiche une erreur
             ouverte=false;
         }
     }
-    
+//changement pour pouvoir avoir une syntaxe "officiel" afin de raccourcir l'écriture   
 public BouteilleBiere(String unNom, double unDegre, String uneBrasserie) {
  nom = unNom;
  degreAlcool = unDegre;
