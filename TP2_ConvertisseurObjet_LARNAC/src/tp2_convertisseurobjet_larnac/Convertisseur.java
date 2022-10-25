@@ -10,15 +10,16 @@ package tp2_convertisseurobjet_larnac;
  */
 public class Convertisseur {
     int nbConversions;
-    public  void Convertisseur(){
-    nbConversions = 0 ;
+    public  void Convertisseur(){//création du constructeur
+    nbConversions = 0 ;//initialisation du nb de conversions
 }
+    //pour chaque conversion la variable est un double
     public double CelciusVersKelvin(double a){
-        a=a+273;
+        a=a+273;//calcul de la conversion
         nbConversions+=1;
-        return a;
+        return a;//retourner le résultat de la conversion
     }
-
+//même principe pour les suivants
     public double KelvinVersCelcius(double b){
         b=b-273;
         nbConversions+=1;
