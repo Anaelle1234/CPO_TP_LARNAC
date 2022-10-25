@@ -10,7 +10,7 @@ package tp2_manip_larnac;
  */
 public class Moussaka {
     int nbCalories;
-    public Moussaka (int cal2){
+    public Moussaka (int cal2){//création constructeur associé à moussaka
     nbCalories=cal2;
     }    
 }
