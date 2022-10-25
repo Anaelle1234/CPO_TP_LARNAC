@@ -10,4 +10,7 @@ package tp2_manip_larnac;
  */
 public class Moussaka {
     int nbCalories;
+    public Moussaka (int cal2){
+    nbCalories=cal2;
+    }    
 }

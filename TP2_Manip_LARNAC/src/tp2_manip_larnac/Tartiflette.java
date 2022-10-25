@@ -8,6 +8,9 @@ package tp2_manip_larnac;
  *
  * @author Anaëlle
  */
-public class Tratiflette {
+public class Tartiflette {
     int nbCalories;
+    public Tartiflette(int cal1){
+        nbCalories=cal1;
+    }    
 }
