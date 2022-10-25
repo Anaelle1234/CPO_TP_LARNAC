@@ -8,12 +8,13 @@ package tp2_biere_larnac;
  *
  * @author Anaëlle
  */
-public class BouteilleBiere {
+public class BouteilleBiere {//création de la classe bouteille biere avec les noms des attributs
     String nom;
     Double degreAlcool;
     String brasserie;
     boolean ouverte;
     
+    //crétaion méthode étiquette
     public void lireEtiquette() {
     System.out.println("Bouteille de " + nom +" (" + degreAlcool +" degres) \nBrasserie : " + brasserie ) ;
     }
