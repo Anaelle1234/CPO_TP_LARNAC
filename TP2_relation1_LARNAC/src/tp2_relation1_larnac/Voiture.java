@@ -15,7 +15,7 @@ public class Voiture {
   @Override
     public String toString () {
     String rep;
-    rep=("Modele = "+Modele+"Marque = "+Marque+"Puissance"+PuissanceCV);
+    rep=("Modele = "+Modele+" Marque = "+Marque+" Puissance = "+PuissanceCV);
     return rep;
     }
     public Voiture(String Lemodele, String Lamarque, int puissance) {
@@ -23,4 +23,6 @@ public class Voiture {
  Marque = Lamarque;
  PuissanceCV=puissance;
 }
+
+    
 }

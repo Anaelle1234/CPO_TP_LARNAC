@@ -11,5 +11,18 @@ package tp2_relation1_larnac;
 public class Personne {
     String nom;
     String prenom;
-
+    
+    public Personne(String lenom, String leprenom) {
+ lenom = nom;
+ leprenom = prenom;
+}
+    
+@Override
+    public String toString () {
+    String rep1;
+    rep1=("Nom = "+nom+"Prenom = "+prenom);
+    return rep1;
+}
+    int nbVoitures ;
+Voiture [] liste_voitures ;
 }
