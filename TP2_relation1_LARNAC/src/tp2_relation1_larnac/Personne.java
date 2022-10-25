@@ -11,10 +11,12 @@ package tp2_relation1_larnac;
 public class Personne {
     String nom;
     String prenom;
+    int voiture=0;
     
     public Personne(String lenom, String leprenom) {
  lenom = nom;
  leprenom = prenom;
+ liste_voitures = new Voiture [3] ;
 }
     
 @Override

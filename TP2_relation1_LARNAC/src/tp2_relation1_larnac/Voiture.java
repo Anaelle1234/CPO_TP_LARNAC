@@ -22,7 +22,9 @@ public class Voiture {
  Modele = Lemodele;
  Marque = Lamarque;
  PuissanceCV=puissance;
+ Proprietaire=null;
 }
+Personne Proprietaire ;
 
     
 }
