@@ -10,7 +10,7 @@ package tp2_manip_larnac;
  */
 public class Tartiflette {
     int nbCalories;
-    public Tartiflette(int cal1){
+    public Tartiflette(int cal1){//création du constructeur
         nbCalories=cal1;
     }    
 }
