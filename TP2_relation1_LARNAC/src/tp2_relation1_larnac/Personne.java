@@ -27,4 +27,16 @@ public class Personne {
 }
     int nbVoitures ;
 Voiture [] liste_voitures ;
-}
+
+
+public boolean ajouter_voiture( Voiture voiture_a_ajouter) {
+    if(voiture_a_ajouter.Proprietaire==null){
+        if (nbVoitures==1 || nbVoitures==2){
+            return true;
+    }else{
+        return false;
+    }
+    
+        
+
+
