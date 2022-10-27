@@ -49,9 +49,7 @@ public class TP2_relation1_LARNAC {
         reno.liste_voitures[1]=uneMicra;
         if(reno.ajouter_voiture(uneMicra)==true && reno.nbVoitures<3){
             reno.nbVoitures+=1;
-        }else{
-            return false;
-                    }
+        }
         uneMicra.Proprietaire = reno ;
         System.out.println("la deuxième voiture de Reno est " + reno.liste_voitures[1]) ;
     }
