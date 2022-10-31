@@ -31,7 +31,6 @@ public class TP1_guessMynumber_LARNAC {
     int niveau;
     niveau=sc.nextInt();
 
-    }
     while (user!=n){
 
     if (user<n){
