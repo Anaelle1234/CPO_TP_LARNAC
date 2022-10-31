@@ -25,7 +25,9 @@ public class TP0_ExoCalculatrice_LARNAC {
         Scanner sc = new Scanner(System.in);
         System.out.println("\n Entrer l'operateur :");
         operateur=sc.nextFloat(); 
-        
+         if ((operateur<1)||(operateur>5)){//si l'operateur ne saisi pas un operateur valide
+            System.out.println("erreur! Le nombre saisi doit être en 1 et 5");
+         }else{
         System.out.println("\n Entrer le premier terme :");
         operande1=sc.nextFloat(); 
         System.out.println("\n Entrer le deuxième terme :");
@@ -34,23 +36,22 @@ public class TP0_ExoCalculatrice_LARNAC {
             resultat=operande1+operande2;
             System.out.println("\n Le résultat est :"+resultat);
         }
-           if (operateur==2){//soustraction
+        if (operateur==2){//soustraction
             resultat=operande1-operande2;
             System.out.println("\n Le résultat est :"+resultat);
         }
-              if (operateur==3){//multiplication
+        if (operateur==3){//multiplication
             resultat=operande1*operande2;
             System.out.println("\n Le résultat est :"+resultat);
         }
-                 if (operateur==4){//division
+        if (operateur==4){//division
             resultat=operande1/operande2;
             System.out.println("\n Le résultat est :"+resultat);
         }
-                    if (operateur==5){//modulo
+        if (operateur==5){//modulo
             resultat=operande1%operande2;
             System.out.println("\n Le résultat est :"+resultat);
         }
-    }
-    
-    
+         }
+    } 
 }
