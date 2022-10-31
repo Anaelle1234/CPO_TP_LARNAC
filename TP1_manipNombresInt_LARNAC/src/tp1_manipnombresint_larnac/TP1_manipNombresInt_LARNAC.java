@@ -20,26 +20,27 @@ public class TP1_manipNombresInt_LARNAC {
         double nb2;
         Scanner sc = new Scanner(System.in);
         System.out.println("\n Entrer un premier nombre");
-        nb1=sc.nextInt();
+        nb1=sc.nextInt();//premier nombre saisi par l'utilisateur
         System.out.println("\n Entrer un deuxième nombre");
-        nb2=sc.nextInt();
+        nb2=sc.nextInt();//deuxiemen nombre saisi par l'utilisateur
         System.out.println("\n Le premier nombre est : "+nb1);
         System.out.println("\n Le deuxième nombre est : "+nb2);
-        double Add;
+        
+        double Add;//addition
         Add=nb1+nb2;
         System.out.println("addition des 2 nombres choisis donne : "+nb1+" + "+nb2+" = "+Add);
         
-        double Diff;
+        double Diff;//soustraction
         Diff=nb1-nb2;
         System.out.println("soustraction des 2 nombres choisis donne : "+nb1+" - "+nb2+" = "+Diff);
         
-        double Mult;
+        double Mult;//multiplication
         Mult=nb1*nb2;
         System.out.println("multiplication des 2 nombres choisis donne : "+nb1+" * "+nb2+" = "+Mult);
         
-        double Div;
+        double Div;//division
         Div=nb1/nb2;
-        double Mod;
+        double Mod;//modulo pour le reste de la division
         Mod=nb1%nb2;
         System.out.println("division des 2 nombres choisis donne : "+nb1+" / "+nb2+" = "+Div+"\n"+" le reste de la divison est de : "+Mod);
     }
