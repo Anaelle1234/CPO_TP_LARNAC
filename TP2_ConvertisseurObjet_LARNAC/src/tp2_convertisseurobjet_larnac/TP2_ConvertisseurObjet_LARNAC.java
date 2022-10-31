@@ -26,7 +26,6 @@ public class TP2_ConvertisseurObjet_LARNAC {
         saisiconv=0;
         double valeur;//le résultat de la conversion
         valeur=0;
-        
         Convertisseur c = new Convertisseur();//création de l'objet convertisseur
         System.out.println("Entrer la température");
         saisinb=sc.nextDouble();//demande de saisi sur l'interface
