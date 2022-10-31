@@ -24,19 +24,31 @@ public class TP1_guessMynumber_LARNAC {
     Scanner sc = new Scanner(System.in);
     System.out.println("\n Entrer le nombre :");
     int user = sc.nextInt();
+    System.out.println("\n Entrer le nombre :");
+    int cpt;
+    cpt=0;
+    System.out.println("Choissisez le mode de jeu: \n 1.Facile \n 2.Moyen \n 3.Difficile");
+    int niveau;
+    niveau=sc.nextInt();
+
+    }
     while (user!=n){
 
     if (user<n){
-        System.out.println("le nombre est plus grand, Recommencez");
+        System.out.println("le nombre est plus grand, Recommencez!");
+        cpt+=1;
         user=sc.nextInt();
     }
     if (user>n){
         System.out.println("le nombre est plus petit,Recommencez!");
+        cpt+=1;
         user=sc.nextInt();
     }
     if (user==n){
         System.out.println("gagné!");
-        user=sc.nextInt();
+        cpt+=1;
+        System.out.println("nombre de tentatives : "+cpt);
+        
     }
     
     }
