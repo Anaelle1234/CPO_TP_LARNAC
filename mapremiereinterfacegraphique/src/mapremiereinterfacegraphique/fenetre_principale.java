@@ -13,6 +13,9 @@ public class fenetre_principale extends javax.swing.JFrame {
     /**
      * Creates new form fenetre_principale
      */
+    String choix1 ="";
+    
+    
     public fenetre_principale() {
         initComponents();
         jLabel2.setVisible(false);
@@ -218,15 +221,15 @@ hanks.setVisible(true);
 
     private void dicaprioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dicaprioActionPerformed
 dicaprio.setVisible(true);
-dicaprio.setSelected(true);
-    
-        };
+        dicaprio.setSelected(true);
+  choix1="dicaprio";
+   
         // TODO add your handling code here:
     }//GEN-LAST:event_dicaprioActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 choix.setVisible(true);
-choix.setText("Vous avez choisi : ..."+ rep);
+choix.setText("Vous avez choisi : ..."+choix1);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
