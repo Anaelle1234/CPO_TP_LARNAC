@@ -43,5 +43,28 @@ for (int i=0;i<Tab.size();i++) {
     System.out.println(Tab.get(i)); 
 } 
 
+Magicien Gandalf = new Magicien("Gandalf",65,true );
+System.out.println(Gandalf);
+Magicien Garcimore = new Magicien("Garcimore",44,false );
+System.out.println(Garcimore);
+Guerrier Conan = new Guerrier("Conan", 78,false );
+System.out.println(Conan);
+Guerrier Lannister = new Guerrier("Lannister", 45, true);
+System.out.println(Lannister);
+
+
+
+   ArrayList<Personnage > tabperso = new ArrayList<Personnage>();
+   tabperso.add(Gandalf);
+   tabperso.add(Garcimore);
+   tabperso.add(Conan);
+   tabperso.add(Lannister);
+
+System.out.println("la taille du tableau " +tabperso.size());
+for (int i=0;i<tabperso.size();i++) {
+    System.out.println(tabperso.get(i)); 
+} 
+
+
     }
 }
