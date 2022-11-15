@@ -68,6 +68,11 @@ for (int i=0;i<tabperso.size();i++) {
     System.out.println(tabperso.get(i)); 
 } 
 
+ArrayList<Personnage > tableau = new ArrayList<Personnage>();
+   tableau.add(Gandalf);
+   tableau.add(Garcimore);
+   tableau.add(Conan);
+   tableau.add(Lannister);
 
     }
 }

@@ -4,6 +4,9 @@
  */
 package Personnages;
 
+import Armes.Arme;
+import java.util.ArrayList;
+
 /**
  *
  * @author Anaëlle
@@ -18,7 +21,24 @@ public Personnage(String nom, int vie) {//constructeur
  this.vie = vie;
 }
 
+ ArrayList<Arme> tabarme = new ArrayList<Arme>();
+ Arme Arme_en_Main;
+
+    public Arme getArme_en_Main() {
+        return Arme_en_Main;
+    }
     
 
+ Arme Armeactuelle= null;
+ 
+ 
+ public ArrayList<Arme> ajouter_arme (Arme nvarme) {//constructeur
+
+ if (tabarme.size()<5){
+     tabarme.add(nvarme);
+ }
+        return tabarme;
+ 
+ }
     
 }
