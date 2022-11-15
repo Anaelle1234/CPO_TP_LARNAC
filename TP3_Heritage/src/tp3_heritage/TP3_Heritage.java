@@ -4,6 +4,8 @@
  */
 package tp3_heritage;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Anaëlle
@@ -25,6 +27,18 @@ public class TP3_Heritage {
   System.out.println(Durandal);
   Epee Excalibur = new Epee("Excalibur",7,5);
   System.out.println(Excalibur);
-    }
     
+  
+   ArrayList<Arme> Tab = new ArrayList<Arme>();
+   Tab.add(Chene);
+   Tab.add(Charme);
+   Tab.add(Durandal);
+   Tab.add(Excalibur);
+
+System.out.println("la taille du tableau " +Tab.size());
+for (int i=0;i<Tab.size();i++) {
+    System.out.println(Tab.get(i)); 
+} 
+
+    }
 }
