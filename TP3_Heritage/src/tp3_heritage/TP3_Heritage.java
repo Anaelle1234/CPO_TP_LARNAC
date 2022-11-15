@@ -4,6 +4,9 @@
  */
 package tp3_heritage;
 
+import Personnages.Magicien;
+import Personnages.Guerrier;
+import Personnages.Personnage;
 import Armes.Baton;
 import Armes.Arme;
 import Armes.Epee;
