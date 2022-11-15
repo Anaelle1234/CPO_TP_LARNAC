@@ -9,16 +9,19 @@ package tp3_heritage;
  * @author Anaëlle
  */
 public class Guerrier extends Personnage {
-    
-    public Guerrier(String nom, int vie, boolean b) {
+    boolean cheval;
+    public Guerrier(String nom, int vie, boolean cheval) {
         super(nom, vie);
-        if (b==true){
-            System.out.println("a cheval");
-        }else{
-            System.out.println("a pied");
-        }
+        this.cheval=cheval;  
+        
         
     }
+@Override
+    public String toString() {
+        return "Guerrier{"+ "nom= " + nom + ", vie= " + vie + " confirme= " + cheval + '}';
+    }
+
+    
 
     public String getNom() {
         return nom;

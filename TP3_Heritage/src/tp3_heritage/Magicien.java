@@ -9,15 +9,16 @@ package tp3_heritage;
  * @author Anaëlle
  */
 public class Magicien extends Personnage{
-    
-    public Magicien(String nom, int vie,boolean b) {
+    boolean confirme;
+    public Magicien(String nom, int vie,boolean confirme) {
         super(nom, vie);
-        if (b==true){
-            System.out.println("confirmé");
-        }else{
-            System.out.println("novice");
-        }
+        this.confirme=confirme;
         
+    }
+
+    @Override
+    public String toString() {
+        return "Magicien{"+ "nom= " + nom + ", vie= " + vie + " confirme= " + confirme + '}';
     }
 
     public String getNom() {
